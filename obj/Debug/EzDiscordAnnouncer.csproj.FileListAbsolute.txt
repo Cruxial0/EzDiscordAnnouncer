@@ -1,0 +1,11 @@
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\EzDiscordAnnouncer.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\EzDiscordAnnouncer.pdb
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\Assembly-CSharp-firstpass.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\Assembly-CSharp.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\Rocket.API.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\Rocket.Core.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\Rocket.Unturned.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\bin\Debug\UnityEngine.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\obj\Debug\EzDiscordAnnouncer.csprojResolveAssemblyReference.cache
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\obj\Debug\EzDiscordAnnouncer.dll
+c:\users\bv2803\documents\visual studio 2017\Projects\EzDiscordAnnouncer\EzDiscordAnnouncer\obj\Debug\EzDiscordAnnouncer.pdb
