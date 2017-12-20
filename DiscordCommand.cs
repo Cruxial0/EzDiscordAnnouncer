@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Crux.Plugin
 {
@@ -28,7 +27,8 @@ namespace Crux.Plugin
 
         public void Execute(IRocketPlayer caller, string[] command)
         {
-            UnturnedPlayer uCaller = (UnturnedPlayer)caller;   
+
+            UnturnedPlayer uCaller = (UnturnedPlayer)caller;
 
             uCaller.Player.sendBrowserRequest("Join our official Discord guild!", Config.DiscordInviteURL);
         }

@@ -1,29 +1,20 @@
 ﻿using Rocket.API;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Crux.Config 
 {
     public class Config : IRocketPluginConfiguration
     {
         public string DiscordInviteURL;
+        public string RequestMessage;
         public bool ShowInviteOnJoin;
 
         public void LoadDefaults()
         {
             DiscordInviteURL = "https://discord.gg/Wggg9YQ";
+            RequestMessage = "Join our official Discord Guild!";
             ShowInviteOnJoin = true;
-        }
-    }
 
-    public class WebsiteCommand
-    {
-        public string Url;
-        public string Desc;
-        public string CommandName;
-        public string Help;
+
+        }
     }
 }
