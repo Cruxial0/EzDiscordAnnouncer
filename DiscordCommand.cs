@@ -1,18 +1,16 @@
-﻿using Rocket.API;
-using Rocket.Unturned.Player;
-using Crux.Main;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Rocket.Unturned;
+using Rocket.Unturned.Chat;
+using Rocket.API;
+using Rocket.Unturned.Player;
 
-namespace Crux.Plugin
+namespace Crux.Main
 {
-    class DiscordCommand : IRocketCommand
+    public class DiscordCommand : IRocketCommand
     {
-        public static Main.Plugin Instance;
-        public static Config.Config Config => Instance.Configuration.Instance;
-
         public AllowedCaller AllowedCaller => AllowedCaller.Player;
 
         public string Name => "discord";
@@ -27,10 +25,9 @@ namespace Crux.Plugin
 
         public void Execute(IRocketPlayer caller, string[] command)
         {
-
             UnturnedPlayer uCaller = (UnturnedPlayer)caller;
 
-            uCaller.Player.sendBrowserRequest("Join our official Discord guild!", Config.DiscordInviteURL);
+            uCaller.Player.sendBrowserRequest("Join our official Discord guild!", Plugin.Config.DiscordInviteURL);
         }
     }
 }

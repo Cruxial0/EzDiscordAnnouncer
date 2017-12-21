@@ -31,15 +31,6 @@ namespace Crux.Main
             U.Events.OnPlayerConnected -= Events_OnPlayerConnected;
         }
 
-        public static void OnJoin(IRocketPlayer caller)
-        {
-            if (Config.ShowInviteOnJoin)
-            {
-                UnturnedPlayer plr = (UnturnedPlayer)caller;
-                plr.Player.sendBrowserRequest(Config.RequestMessage, Config.DiscordInviteURL);
-            }
-        }
-
         void Events_OnPlayerConnected(UnturnedPlayer player)
         {
             if (player != null && Configuration.Instance.ShowInviteOnJoin)
@@ -51,6 +42,10 @@ namespace Crux.Main
         private IEnumerator StartDelayedUrlRequest(UnturnedPlayer player)
         {
             yield return new WaitForSeconds(1.5f);
+            if (Config.ShowInviteOnJoin)
+            {
+                player.Player.sendBrowserRequest(Config.RequestMessage, Config.DiscordInviteURL);
+            }
         }
     }
 }

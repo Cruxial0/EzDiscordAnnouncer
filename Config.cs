@@ -13,8 +13,6 @@ namespace Crux.Config
             DiscordInviteURL = "https://discord.gg/Wggg9YQ";
             RequestMessage = "Join our official Discord Guild!";
             ShowInviteOnJoin = true;
-
-
         }
     }
 }
